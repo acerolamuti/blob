@@ -1,0 +1,27 @@
+#content {
+	height: 500px;
+	width: 500px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.line {
+	font-size: 0;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-image: url("img/bg.png");
+	background-size: 100px;
+}
+
+.cel {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
