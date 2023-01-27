@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blob Game</title>
+	<script src='main.js'></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<center>
+	<div><span id="life"></span><span id="lifeZombie"></span><span id="lifeSnake"></span></div>
+	<div id='content'>
+		<div id='linea' class="line">
+			<div id='cel1a' class="cel"></div>
+			<div id='cel2a' class="cel"></div>
+			<div id='cel3a' class="cel"></div>
+			<div id='cel4a' class="cel"></div>
+			<div id='cel5a' class="cel"></div>
+		</div>
+		<div id='lineb' class="line">
+			<div id='cel1b' class="cel"></div>
+			<div id='cel2b' class="cel"></div>
+			<div id='cel3b' class="cel"></div>
+			<div id='cel4b' class="cel"></div>
+			<div id='cel5b' class="cel"></div>
+		</div>
+		<div id='linec' class="line">
+			<div id='cel1c' class="cel"></div>
+			<div id='cel2c' class="cel"></div>
+			<div id='cel3c' class="cel"></div>
+			<div id='cel4c' class="cel"></div>
+			<div id='cel5c' class="cel"></div>
+		</div>
+		<div id='lined' class="line">
+			<div id='cel1d' class="cel"></div>
+			<div id='cel2d' class="cel"></div>
+			<div id='cel3d' class="cel"></div>
+			<div id='cel4d' class="cel"></div>
+			<div id='cel5d' class="cel"></div>
+		</div>
+		<div id='linee' class="line">
+			<div id='cel1e' class="cel"></div>
+			<div id='cel2e' class="cel"></div>
+			<div id='cel3e' class="cel"></div>
+			<div id='cel4e' class="cel"></div>
+			<div id='cel5e' class="cel"></div>
+		</div>
+	</div>
+	<div id="controls">
+		<div><button onclick="move('up')">↑</button></div>
+		<div><button onclick="move('left')">←</button><button onclick="move('right')">→</button></div>
+		<div><button onclick="move('down')">↓</button></div>
+		<div><button onclick="start()">Início</button></div>
+	</div>
+	</center>
+<div id='idx'><font size="0px"></font></div>
+</body>
+</html>
